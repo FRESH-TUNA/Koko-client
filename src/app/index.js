@@ -1,9 +1,9 @@
 import React from 'react';
-import Namespace from './namespace';
+import Home from './pages/home'
 
 function Routes() {
   return (
-    <Namespace/>
+    <Home/>
   );
 }
 
