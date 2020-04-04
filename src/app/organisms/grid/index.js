@@ -1,9 +1,10 @@
 import React from 'react';
 import {
-  Row, Col
+  Row, Col, Layout
 } from 'antd';
-
 import Video from '../../molecules/video'
+import './.scss'
+const { Content } = Layout;
 
 export default ({xs=24, sm=12, md=8, components=[
   <Video/>,
@@ -17,8 +18,10 @@ export default ({xs=24, sm=12, md=8, components=[
   });
 
   return (
-    <Row>
-      {components}
-    </Row>
+    <Content>
+      <Row className="grid-row">
+        {components}
+      </Row>
+    </Content>
   );
 }

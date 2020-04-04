@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import 'antd/dist/antd.css';
+import 'video.js/dist/video-js.css'
 import App from './app';
 import * as serviceWorker from './serviceWorker';
 

@@ -1,6 +1,5 @@
 .video {
-  width: 200px;
-  img {
-    width: 90%;
+  & img {
+    width: 100%;
   }
 }
