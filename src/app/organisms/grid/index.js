@@ -2,15 +2,10 @@ import React from 'react';
 import {
   Row, Col, Layout
 } from 'antd';
-import Video from '../../molecules/video'
 import './.scss'
 const { Content } = Layout;
 
-export default ({xs=24, sm=12, md=8, components=[
-  <Video/>,
-  <Video/>,
-  <Video/>
-]}) => {
+export default ({xs=24, sm=12, md=8, components}) => {
   
   // component wrap into antd
   components.forEach((value, index) => {

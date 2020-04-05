@@ -4,12 +4,13 @@ import { Layout } from 'antd';
 import { useEffect, useRef } from 'react';
 import videojs from 'video.js'
 
+
 export default () => {  
   const playerRef = useRef();
 
   useEffect(() => {
     const player = videojs(playerRef.current, { autoplay: true, muted: true }, () => {
-      player.src("https://youtu.be/BDisGwPATu8");
+      player.src();
     });
 
     return () => {
