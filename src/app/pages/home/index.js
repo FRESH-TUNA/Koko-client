@@ -34,7 +34,7 @@ export default () => {
         });
         setVideos(video_list);
       })
-  });
+  }, []);
 
   return (
     <Template videos={videos}/>

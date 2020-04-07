@@ -1,13 +1,13 @@
 import React from 'react';
 import Header from '../../organisms/header';
-import Video from '../../organisms/video';
+import Player from '../../organisms/player';
 import { Layout } from 'antd';
 
-export default ({data}) => {    
+export default ({url}) => {    
   return (
     <Layout className="layout">
       <Header/>
-      <Video data={data}/>
+      <Player url={url}/>
     </Layout>
   )
 }
