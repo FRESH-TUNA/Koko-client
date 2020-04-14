@@ -1,6 +1,6 @@
 import React from 'react';
 import Home from './pages/home';
-import VideoDetail from './pages/videoDetail';
+import VideoDetail from './pages/show';
 import { Route, Switch } from 'react-router-dom';
 
 function Routes() {

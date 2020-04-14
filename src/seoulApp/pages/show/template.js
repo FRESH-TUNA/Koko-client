@@ -1,5 +1,5 @@
 import { getThumbnails } from 'video-metadata-thumbnails';
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import Header from '../../organisms/header';
 import Player from '../../organisms/player';
 import { Layout } from 'antd';
